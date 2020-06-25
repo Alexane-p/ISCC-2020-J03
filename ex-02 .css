@@ -1,0 +1,33 @@
+body{color:darkslategray}
+h1{color: #8b0000}
+h2{color:rgb(178, 34, 34)}
+body{background-color:aliceblue}
+h1{background-color:rgba(0, 0, 0, 0.2); }
+@font-face{
+font-family: "nasalization-rg";
+src: url(nasalization-rg.ttf);
+}
+h1,h2{font-family: "nasalization-rg";}
+h1{
+    font-size: 45px;
+}
+h2{
+font-size: 25px;
+}
+h2{text-decoration: underline;}
+h1{text-decoration:underline;color: black;}
+h1{text-decoration: overline;color: black;}
+h1,H2{text-align: center;}
+main{padding-left: 10%;}
+main{padding-right: 10%;}
+h1{padding-block:10%;margin: 0%; }
+
+q{border-color:black; border-width: 2px;border-style: solid;display: block; }
+p,li{margin-left: 5%;margin-right: 5%;}
+
+img{margin-left: auto;width: 10%;height: 30%;}
+video{margin-top: auto;}
+audio{margin-right: auto;}
+
+li:first-child{color:green;}
+li:nth-child(2),li:last-child{color: greenyellow;}

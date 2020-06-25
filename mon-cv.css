@@ -1,0 +1,25 @@
+
+body{background-color: aliceblue;}
+h1{text-align: center;}
+
+header
+h1{background-color:lightseagreen;}
+h2{border:2px dashed black;display: block;margin-left: 100px;margin-right: 100px; text-align: center;}
+img{display:block;margin-left: auto;margin-right: auto;}
+
+li{display:flex;align-items: center; justify-content: center;background-color: lightseagreen;}
+
+
+h2:nth-child(2){text-align: left;}
+h3{font-size: 25px;}
+
+div{display:flex;border:solid lightseagreen;max-width: 1000px;margin-bottom: auto;}
+span{display: flex;float: right }
+
+
+section:last-child{display: flex;float: left;}
+
+
+
+footer{display: inline-block;background-color: lightseagreen;text-align: end;}
+
